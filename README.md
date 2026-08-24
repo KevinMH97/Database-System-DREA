@@ -10,6 +10,7 @@ Debido a estas razones, se optó por rediseñar la base de datos, siguiendo un c
 
 El principal indicio de que el sistema de constancia de pagos, presenta evidentes problemas son, los tiempos de respuesta bastante largos. Por lo cual, se optó por realizar un análisis exhaustivo de los datos e información que el sistema realmente necesita almacenar, que las relaciones entre tablas sigan un camino acorde a cómo funciona el proceso de pago en la vida real, tomar en cuenta las formas normales de diseño de base de datos y establecer de manera idónea el tipo de dato a cada atributo de una tabla.
 </div>
+
 ## 🛠️ Tecnologías Utilizadas
 - **Motor de BD:** SQL Server / PostgreSQL (Pon el que corresponda)
 - **Conceptos aplicados:** Modelado relacional (ERD), llaves foráneas y restricciones, Vistas, Consultas complejas (JOINs, Aggregations), Stored Procedures y Triggers.
