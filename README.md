@@ -1,8 +1,9 @@
 # Database-System-DREA
-REDISEÑO DE LA BASE DE DATOS PARA EL SISTEMA DE CONSTANCIA DE PAGOS DE LA DIRECCIÓN REGIONAL DE EDUCACIÓN DE AYACUCHO - 2024
+REDISEÑO DE LA BASE DE DATOS PARA EL SISTEMA DE CONSTANCIA DE PAGOS DE LA DIRECCIÓN REGIONAL DE EDUCACIÓN DE AYACUCHO- PERÚ
 
 
 1. CONSIDERACIONES PREVIAS AL DISEÑO DE LA BASE DE DATOS RELACIONAL
+
 1.1.	Análisis de Esquemas de la Base de Datos
 Actualmente la base de datos del sistema de constancia de pagos de la dirección regional de Ayacucho, presenta gran presencia de datos redundantes y repetitivos, especialmente en las tablas “personas” y “pagos” generando problemas de rendimiento y almacenamiento; Además, se evidenció un desorden entre las relaciones de tablas, donde incluso, se encontró la presencia de bucles generado por la mala utilización de las relaciones y la lógica de modelado. 
 Una de las buenas prácticas de diseño de base de datos que utilicé en este informe, es la aplicación de las formas normales, la cual por su naturaleza va a generar más cantidad de tablas, añadiendo complejidad al modelo. 
