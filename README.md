@@ -4,11 +4,15 @@
 
 ## 📌 Descripción del Proyecto
 <div align="justify">
-Se presenta una solución a la problemática de rendimiento y eficiencia del sistema de constancia de pagos que actualmente viene funcionando en la Dirección Regional de Educación de Ayacucho, como un generador de recibos y boletas de pago para cada trabajador vinculado a dicha organización gubernamental. Esta problemática radica principalmente de la forma en como se almacenan los datos, ya que utiliza un modelo de base de datos con diversas fallas de diseño.
-  
-El principal indicio de que el sistema de constancia de pagos, presenta evidentes problemas son, los tiempos de respuesta bastante largos. Por lo cual, se optó por realizar un análisis exhaustivo de los datos e información que el sistema realmente necesita almacenar, que las relaciones entre tablas sigan un camino acorde a cómo funciona el proceso de pago en la vida real, tomar en cuenta las formas normales de diseño de base de datos y establecer de manera idónea el tipo de dato a cada atributo de una tabla.
+Se presenta una solución a las deficiencias de rendimiento y eficiencia del sistema de constancias de pago de la Dirección Regional de Educación de Ayacucho (DREA), plataforma encargada de generar los recibos y boletas del personal. El principal síntoma de esta problemática radica en los prolongados tiempos de respuesta, causados por fallas estructurales en el diseño y almacenamiento de la base de datos actual.
 
-Debido a estas razones, se optó por rediseñar la base de datos, siguiendo un conjunto de estrategias y buenas prácticas establecidas por notables autores en este tema y propia experiencia en modelado de datos.
+Para solucionar este problema, se rediseña la base de datos aplicando principios de normalización, estándares de la industria y la lógica operativa del proceso de pagos. Este proceso comprende:
+
+- **Depuración de requerimientos:** Identificación precisa de los datos estrictamente necesarios para el sistema.
+
+- **Alineación del modelo relacional:** Estructuración de las relaciones entre tablas acorde al flujo real del negocio.
+
+- **Normalización y tipificación:** Aplicación de formas normales y asignación rigurosa de tipos de datos a cada atributo.
 </div>
 
 ## 🛠️ Tecnologías Utilizadas
