@@ -19,14 +19,7 @@ Para solucionar este problema, se rediseña la base de datos aplicando principio
 - **Motor de BD:** SQL Server
 - **Conceptos aplicados:** Modelado relacional (ERD), normalización, llaves foráneas y restricciones.
 
-## 📊 Estructura del Esquema
-- **Personal:** Datos de trabajadores, cargos, regímenes y centros de costo.
-- **Conceptos:** Catálogo parametrizable de ingresos (haberes) y descuentos (legales y personales).
-- **Procesamiento de Pagos:** Tablas históricas de detalle y cabecera por periodo fiscal.
+> *Se prsenta en documentos de texto, todos los procedimietnos a detalle del proyecto.*
 
-## 🔍 Consultas de Negocio Destacadas
-- Cálculo automático de sueldo neto y retenciones previsionales.
-- Consolidado de gasto presupuestal por condición laboral.
-- Generación de resúmenes de aportes a entidades recaudadoras (AFP / ONP).
 
 > *Nota: Todos los datos contenidos en los scripts de prueba son totalmente ficticios para fines demostrativos.*
