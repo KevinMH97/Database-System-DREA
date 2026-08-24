@@ -5,12 +5,19 @@ REDISEÑO DE LA BASE DE DATOS PARA EL SISTEMA DE CONSTANCIA DE PAGOS DE LA DIREC
 1. CONSIDERACIONES PREVIAS AL DISEÑO DE LA BASE DE DATOS RELACIONAL
 
 1.1.	Análisis de Esquemas de la Base de Datos
+
 Actualmente la base de datos del sistema de constancia de pagos de la dirección regional de Ayacucho, presenta gran presencia de datos redundantes y repetitivos, especialmente en las tablas “personas” y “pagos” generando problemas de rendimiento y almacenamiento; Además, se evidenció un desorden entre las relaciones de tablas, donde incluso, se encontró la presencia de bucles generado por la mala utilización de las relaciones y la lógica de modelado. 
+
 Una de las buenas prácticas de diseño de base de datos que utilicé en este informe, es la aplicación de las formas normales, la cual por su naturaleza va a generar más cantidad de tablas, añadiendo complejidad al modelo. 
+
 Una forma de organizar un modelo complejo, es utilizar esquemas de bases de datos, las cuales serán:
+
 a.	Persona: Este esquema contendrá a las tablas que guarden información de cada persona en la DREA a la cual se le realizará el pago, como su nivel magisterial, cargo, régimen laboral, etc.
+
 b.	Boleta: Este esquema contendrá a las tablas que tengan relación a la información que figurará en la boleta de pago, tales como: tipo de pago o detalle de pago.
+
 c.	Admin: Este esquema contendrá a todas las tablas que tengan relación a los usuarios encargados de emitir y registrar un pago a las personas asociadas a la Dirección Regional de Ayacucho.
+
 De este modo, al usar esquemas en la base de datos, se pueden obtener beneficios significativos como:
 	Permitir un mayor acceso a las bases de datos por parte de múltiples usuarios.
 	Prevenir la ubicación desordenada de las entidades en el sistema.
