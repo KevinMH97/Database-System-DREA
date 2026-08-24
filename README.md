@@ -4,7 +4,7 @@
 
 ## 📌 Descripción del Proyecto
 <div align="justify">
-Se presenta una solución a la problemática de rendimiento y eficiencia del sistema de constancia de pagos que actualmente viene funcionando en la Dirección Regional de Educación de Ayacucho, como un generador de recibos y boletas de pago para cada trabajador vinculado a dicha organización gubernamental. Esta problemática radica principalmente de la forma en como se almacenan los datos, ya que utiliza un modelo de base de datos con diversas fallas de diseño. 
+Se presenta una solución a la problemática de rendimiento y eficiencia del sistema de constancia de pagos que actualmente viene funcionando en la Dirección Regional de Educación de Ayacucho, como un generador de recibos y boletas de pago para cada trabajador vinculado a dicha organización gubernamental. Esta problemática radica principalmente de la forma en como se almacenan los datos, ya que utiliza un modelo de base de datos con diversas fallas de diseño.
 
 Debido a estas razones, se optó por rediseñar la base de datos, siguiendo un conjunto de estrategias y buenas prácticas establecidas por notables autores en este tema y propia experiencia en modelado de datos. 
 
