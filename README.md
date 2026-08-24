@@ -17,7 +17,7 @@ Para solucionar este problema, se rediseña la base de datos aplicando principio
 
 ## 🛠️ Tecnologías Utilizadas
 - **Motor de BD:** SQL Server
-- **Conceptos aplicados:** Modelado relacional (ERD), llaves foráneas y restricciones.
+- **Conceptos aplicados:** Modelado relacional (ERD), normalización, llaves foráneas y restricciones.
 
 ## 📊 Estructura del Esquema
 - **Personal:** Datos de trabajadores, cargos, regímenes y centros de costo.
