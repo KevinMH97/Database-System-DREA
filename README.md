@@ -16,8 +16,8 @@ Para solucionar este problema, se rediseña la base de datos aplicando principio
 </div>
 
 ## 🛠️ Tecnologías Utilizadas
-- **Motor de BD:** SQL Server / PostgreSQL (Pon el que corresponda)
-- **Conceptos aplicados:** Modelado relacional (ERD), llaves foráneas y restricciones, Vistas, Consultas complejas (JOINs, Aggregations), Stored Procedures y Triggers.
+- **Motor de BD:** SQL Server
+- **Conceptos aplicados:** Modelado relacional (ERD), llaves foráneas y restricciones.
 
 ## 📊 Estructura del Esquema
 - **Personal:** Datos de trabajadores, cargos, regímenes y centros de costo.
